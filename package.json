@@ -1,0 +1,32 @@
+{
+  "name": "adonis-redis-cache",
+  "version": "1.0.0",
+  "description": "Redis caching mechanism for AdonisJS using TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emrancu/adonis-redis-cache.git"
+  },
+  "keywords": [
+    "adonisjs",
+    "redis",
+    "cache",
+    "typescript"
+  ],
+  "author": "Al Emran",
+  "license": "MIT",
+  "dependencies": {
+    "@adonisjs/redis": "^8.0.1",
+    "php-serialize": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/php-serialize": "^3.0.4",
+    "typescript": "^5.4.5"
+  }
+}
